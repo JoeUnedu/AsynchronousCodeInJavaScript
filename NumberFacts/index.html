@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Number Facts</title>
+  <script src="https://unpkg.com/jquery"></script>
+</head>
+
+<body>
+  <form id="favnbr-form">
+    <div>Favorite Number(s): <input id="fav-nbr"> <b id="fav-nbr-err"></b> </div>
+    <div>(Please use a , to separate each number.)<br><br></div>
+    <div>Number of Facts: <input type="number" min="1" max="10" id="nbr-of-facts"> <b id="nbr-of-facts-err"></b> </div>
+    <button>Trivia</button>
+  </form>
+  <div id="favnbr-trivia"><br><br><br></div>
+  <br>
+  <hr>
+
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="./static/asyncExercises.js"></script>
+
+</body>
+
+</html>
